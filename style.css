@@ -1,0 +1,127 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset */
+
+/* simple */
+
+a, i {
+    color: gray;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover,
+i:hover {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+#background {
+    height: 100vh;
+    width: 100%;
+}
+
+#site_header {
+    height: calc( 100% - 5rem );
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 100%;
+    width: 14rem;
+    color: white;
+    overflow: hidden;
+}
+
+.logo {
+    background-color: black;
+    padding: 1rem;
+}
+
+.s_logo {
+    display: none;
+}
+
+.logo img {
+    height: 3rem;
+    width: auto;
+}
+
+.blk_links {
+    background-color: black;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.home, .search, .library {
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.home img,
+.search img,
+.library img {
+    height: 2rem;
+    width: auto;
+}
+
+.links:hover {
+    border-left: 0.25rem solid #87c924;
+    border-radius: 0.15rem;
+}
+
+.wrt_home, .wrt_search, .wrt_library {
+    padding-left: 0.75rem;
+    color: white;
+    font-weight: bold;
+}
+
+.playlist h2 {
+    text-transform: uppercase;
+    font-size: large;
+    padding-bottom: 0.5rem;
+}
+
+.playlist {
+    background-color: black;
+    min-height: 6rem;
+    overflow: hidden;
+    flex-grow: 1;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+}
+
+.hub_playlist {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.hub_playlist a {
+    font-size: medium;
+}
+
+.hub_playlist a i {
+    background-color: gray;
+    color: black;
+    font-size: x-large;
+    padding: 1rem;
+}
+
+
