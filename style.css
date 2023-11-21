@@ -124,4 +124,74 @@ nav {
     padding: 1rem;
 }
 
+.playlist_cart {
+    height: 100%;
+    overflow-y: auto;
+    display: inline-block;
+    list-style-type: none;
+}
 
+.playlist_cart a li {
+    padding-top: 2rem;
+}
+
+.end_header {
+    background-color: black;
+    height: 4.5rem;
+    padding-left: 1.35rem;
+}
+
+.install {
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.5rem;
+    margin-right: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.install a img {
+    height: 1rem;
+    width: auto;
+}
+
+.wrt_install {
+    line-height: 1rem;
+}
+
+.wrt_install a {
+    font-weight: bold;
+    font-size: smaller;
+    padding-left: 1rem;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-top: 0.5;
+}
+
+.user .name {
+    padding-left: 0.5rem;
+}
+
+.user .name a {
+    color: white;
+}
+
+.user_img {
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.user_img a img {
+    height: 1.5rem;
+    width: auto;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+}
