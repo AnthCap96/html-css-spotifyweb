@@ -331,6 +331,7 @@ nav {
     text-transform: uppercase;
     font-weight: bold;
     font-size: small;
+    color: white;
 }
 
 #site_main button:hover {
