@@ -218,16 +218,16 @@ nav {
     flex-wrap: wrap;
 }
 
-.list_album li {
+.list_album ul li {
     padding-left: 0.65rem;
     text-transform: uppercase;
 }
 
-.list_album li a:hover {
+.list_album ul li a:hover {
     color: white;
 }
 
-.list_album li a:hover {
+.list_album ul li a:hover {
     border-bottom: 2px solid #87c924;
     border-radius: 1px;
 }
@@ -338,52 +338,6 @@ nav {
     transform: scale(1.3);
 }
 
-@media screen and (max-width: 75rem) and (min-width: 62rem) {
-    .all_album {
-        flex-grow: 0;
-        width: calc( 100% / 4 );
-    }
-
-    .row_album {
-        flex-wrap: wrap;
-    }
-
-}
-
-@media screen and (max-width: 62rem) and (min-width: 48rem) {
-    .all_album {
-        flex-grow: 0;
-        width: calc( 100% / 2 );
-    }
-
-    .row_album {
-        flex-wrap: wrap;
-    }
-
-}
-
-@media screen and (max-width: 48rem) {
-    .all_album {
-        flex-grow: 0;
-        width: calc( 100% / 2 );
-    }
-
-    .row_album {
-        flex-wrap: wrap;
-    }
-
-}
-
-@media screen and (max-width: 48rem) {
-
-    #site_main {
-        padding: 12px 4px;
-    }
-
-    .play_bar {
-        min-width: 100%;
-    }
-}
 
 #site_footer {
     height: 5rem;
@@ -496,17 +450,17 @@ nav {
     background-color: #bcbcbc;
     border-radius: 0.65rem;
 }
- .dark_bar:hover {
+.dark_bar:hover {
     background-color: #87c924;
     cursor: pointer;
- }
+}
 
- .volume_play {
+.volume_play {
     padding: 1.25rem;
     padding-top: 2rem;
- }
+}
 
- .volume_bar {
+.volume_bar {
     width: 6.25rem;
     height: 4px;
     background-color: darkgray;
@@ -515,12 +469,58 @@ nav {
  }
 
  .time {
-    font-size: small;
+     font-size: small;
     font-weight: 500;
- }
+}
 
+/* media */
 
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    .all_album {
+        flex-grow: 0;
+        width: calc( 100% / 4 );
+    }
 
+    .row_album {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .all_album {
+        flex-grow: 0;
+        width: calc( 100% / 2 );
+    }
+
+    .row_album {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .all_album {
+        flex-grow: 0;
+        width: calc( 100% / 2 );
+    }
+
+    .row_album {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    #site_main {
+        padding: 12px 4px;
+    }
+
+    .play_bar {
+        min-width: 100%;
+    }
+}
 
 
 
